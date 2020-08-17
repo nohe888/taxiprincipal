@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="C:\Users\owner\Documents\TAXI\LOGIN\index.html">Salir</a>
+                
+        </nav>
+        <div class="contenedor head">
+            <img src="img/LOGO.png">
+            <p class="copy">TAXIFAST es un servicio que le permitira al usuario navegar atraves de un mapa en nuestro municipio
+            y con el cual podra ubicar su direccion para despues copiarla en el recuadro y asi elegir entre los taxis
+            disponibles en nuestra comunidad para posteriormente llegar al punto de recogida.</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">MAPA DE NUESTRO MUNICIPIO</h2>
+            <div class="contenedor-servicio">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485258.6582606019!2d-91.06212360434212!3d18.16007773465709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f6a5758b60babf%3A0x15fdbf1e9be57d78!2sCandelaria%2C%20Camp.!5e0!3m2!1ses-419!2smx!4v1597604759447!5m2!1ses-419!2smx" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="checklist-servicio">
+                    <div class="service">
+                       <br>
+                        <h3 class="n-service"><span class="number">1</span>Selecciona tu direccion</h3>
+                        <p> Arrastra por el mapa, (puedes realizar zoom) hasta encontrar tu ubicacion.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Escribe tu direccion</h3>
+                        <p>En el recuadro de abajo escibe tu direccion con la cual tu taxi llegara a tu punto de partida.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Haz click</h3>
+                        <p> Haz click en solicitar para que al final, te mostremos entre los taxis disponibles para recogerte.</p>
+                        <br>
+                        <p><textarea name="comentario" rows="5" cols="50">Escribe aquí tu direccion: </textarea></p>
+                        <br>
+                       <a class="boton_personalizado" href="http://127.0.0.1:65397/DIRECTORIO/index.html">SOLICITAR</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">CONOCE CANDELARIA, CAMPECHE</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/candelaria-campeche.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/candelaria2.jpg" class="img-galeria" alt="">
+                    <img src="img/pm_18_3colsbyn_feria-750x406.jpg" class="img-galeria" alt="">
+                    <img src="img/CmI1lzrVEAEq2y3.jpg" class="img-galeria" alt="">
+                    <img src="img/slider2.jpg" class="img-galeria" alt="">
+                    <img src="img/slider4.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">¿Cual fue la finalidad de mi proyecto?</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/Figura-1-Perspectiva-de-los-solares-en-Virgencita-de-la-Candelaria-Calakmul-Campeche_Q320.jpg" alt="">
+                    <h3 class="n-expert">Ayudar a las familias en zonas rurales disminuyendo el tiempo de espera en un transporte.</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/parque-2.jpg" alt="">
+                    <h3 class="n-expert">Ayudar a las familias en la cabecera municipal, solicitando el servicio desde la comunidad de su hogar.</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/uuCAN9.jpg" alt="">
+                    <h3 class="n-expert">Ayudando a compañeros universitarios, haciendo mas corta la espera y segura de un medio de transporte.</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">TAXIFAST</h2>
+                    <p>Esta aplicacion es una simulacion a como seria una aplicacion real funcionando contando con usuarios registrados.</p>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
